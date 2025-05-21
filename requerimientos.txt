@@ -1,0 +1,43 @@
+ Inicio del juego
+RF1: El sistema debe permitir iniciar una nueva partida.
+
+RF2: El sistema debe permitir seleccionar el número de jugadores (mínimo 2, máximo 4 por defecto).
+
+RF3: Cada jugador debe tener un identificador único (nombre, color, ficha).
+
+2. Tablero
+RF4: El sistema debe generar un tablero de 100 casillas (10x10).
+
+RF5: El tablero debe contener una cantidad predeterminada de serpientes y escaleras en posiciones fijas.
+
+RF6: El sistema debe mostrar visualmente el tablero con la posición de cada jugador.
+
+3. Turnos
+RF7: El sistema debe asignar turnos de manera secuencial entre los jugadores.
+
+RF8: El sistema debe permitir a cada jugador lanzar un dado en su turno (valor aleatorio del 1 al 6).
+
+RF9: El sistema debe mover la ficha del jugador según el valor obtenido en el dado.
+
+4. Reglas de Serpientes y Escaleras
+RF10: Si un jugador cae en una casilla con una escalera, debe subir automáticamente a la casilla superior conectada.
+
+RF11: Si un jugador cae en una casilla con una serpiente, debe bajar automáticamente a la casilla inferior conectada.
+
+RF12: Si un jugador obtiene un 6 en el dado, debe tener un turno adicional.
+
+5. Condiciones de victoria
+RF13: El sistema debe detectar cuando un jugador llega exactamente a la casilla 100.
+
+RF14: El sistema debe declarar ganador al primer jugador en llegar a la casilla 100.
+
+RF15: El sistema debe finalizar el juego una vez haya un ganador.
+
+6. Interfaz de usuario (si aplica)
+RF16: El sistema debe mostrar el número de casilla actual de cada jugador.
+
+RF17: El sistema debe mostrar el valor del dado lanzado por el jugador.
+
+RF18: El sistema debe mostrar mensajes de eventos (escalera subida, serpiente bajada, turno extra, etc.).
+
+RF19: El sistema debe permitir reiniciar la partida desde el menú.
